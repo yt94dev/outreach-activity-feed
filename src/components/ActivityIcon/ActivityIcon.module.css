@@ -1,5 +1,23 @@
 .icon {
-    background: red;
     width: 30px;
     height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(236,236,236);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconType {
+    color:  rgb(197, 195, 195);
+}
+
+.blue:hover {
+    background: rgb(0,198,238);
+    border: 2px solid rgb(0,198,238);
+}
+
+.blue:hover .iconType {
+    color:  white;
 }
